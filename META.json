@@ -1,25 +1,41 @@
 {
     "name": "pg_datatype_password",
-    "abstract": "A short description",
-    "description": "A long description",
+    "abstract": "PostgreSQL data type for storing blowfish encrypted and salted passwords which can be queried against clear text.",
+    "description": "User can transparently query encrypted passwords against clear password coming from web application etc. Every password is encryped using different salt, therefore even same passwords are represented with different encryped text. See https://www.postgresql.org/docs/current/static/pgcrypto.html",
     "version": "1.0.0",
-    "maintainer": "The maintainer's name",
-    "license": "postgresql",
+    "maintainer": "Özüm Eldoğan",
+    "license": "MIT",
     "provides": {
         "pg_datatype_password": {
-            "abstract": "A short description",
+            "abstract": "PostgreSQL data type for storing blowfish encrypted and salted passwords which can be queried against clear text.",
             "file": "sql/pg_datatype_password.sql",
             "docfile": "doc/pg_datatype_password.md",
             "version": "1.0.0"
         }
     },
-    "release_status": "unstable",
+    "release_status": "stable",
 
     "generated_by": "Özüm Eldoğan",
-
+    "resources": {
+        "bugtracker": {
+            "web": "https://github.com/ozum/pg_datatype_password/issues"
+        },
+        "repository": {
+            "url":  "https://github.com/ozum/pg_datatype_password.git",
+            "web":  "https://github.com/ozum/pg_datatype_password",
+            "type": "git"
+        }
+    },
 
     "meta-spec": {
         "version": "1.0.0",
         "url": "http://pgxn.org/meta/spec.txt"
-    }
+    },
+    "tags": [
+        "encryption",
+        "password",
+        "type",
+        "custom type",
+        "pgcrypto"
+    ]
 }
