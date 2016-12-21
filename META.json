@@ -4,7 +4,7 @@
     "description": "User can transparently query encrypted passwords against clear password coming from web application etc. Every password is encryped using different salt, therefore even same passwords are represented with different encryped text. See https://www.postgresql.org/docs/current/static/pgcrypto.html",
     "version": "1.0.0",
     "maintainer": "Özüm Eldoğan",
-    "license": "MIT",
+    "license": "mit",
     "provides": {
         "pg_datatype_password": {
             "abstract": "PostgreSQL data type for storing blowfish encrypted and salted passwords which can be queried against clear text.",
