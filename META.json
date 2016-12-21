@@ -1,0 +1,25 @@
+{
+    "name": "pg_datatype_password",
+    "abstract": "A short description",
+    "description": "A long description",
+    "version": "1.0.0",
+    "maintainer": "The maintainer's name",
+    "license": "postgresql",
+    "provides": {
+        "pg_datatype_password": {
+            "abstract": "A short description",
+            "file": "sql/pg_datatype_password.sql",
+            "docfile": "doc/pg_datatype_password.md",
+            "version": "1.0.0"
+        }
+    },
+    "release_status": "unstable",
+
+    "generated_by": "Özüm Eldoğan",
+
+
+    "meta-spec": {
+        "version": "1.0.0",
+        "url": "http://pgxn.org/meta/spec.txt"
+    }
+}
