@@ -78,12 +78,12 @@ User can transparently query encrypted passwords against clear password coming f
 Support
 -------
 
-  [https://github.com/ozum/pg_datatype_password/issues](GitHub Issues)
+[https://github.com/ozum/pg_datatype_password/issues](GitHub Issues)
 
 Author
 ------
 
-[https://github.com/ozum]Özüm Eldoğan
+[https://github.com/ozum](Özüm Eldoğan)
 
 Copyright and License
 ---------------------
